@@ -1,0 +1,26 @@
+.item{
+    margin-top:4.5rem;
+}
+.todoInput{
+    height:1.5rem;
+    width:15%;
+    margin-right:1.5rem;
+}
+button{
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    color:white;
+    background-color: rgb(0, 128, 96);
+    border-radius:8px;
+    border:none;
+}
+button:hover{
+    background-color:rgb(90, 128, 0);
+    
+}
+.taskDone{
+    text-decoration: line-through;
+}
+.unline{
+    text-decoration:none
+}

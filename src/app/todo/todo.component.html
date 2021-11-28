@@ -1,0 +1,10 @@
+<div>
+    <input class="todoInput" type="text" [(ngModel)]="task"> 
+    <button (click)="addTask()">Add Task</button>
+</div>
+<div class="item">
+    <div *ngFor="let taskadd of tasksadd; index as i ">
+        <p (click)="taskDone(i)" [ngClass]="tasksadd[i].done? 'taskDone':'unline'">{{taskadd.name}}</p>
+        <button (click)="RemoveItem(taskadd)">delete task</button>
+    </div>
+</div>
